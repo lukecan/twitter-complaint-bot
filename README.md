@@ -30,4 +30,4 @@ The promised download and upload speeds are set as constants:
 - The script loads environment variables from the `.env` file using `load_dotenv` from the dotenv library.
 - The ChromeDriver is initialized with the path from the environment variables.
 - The `get_internet_speed` method navigates to speedtest.net, clicks the "Go" button, waits for the speed test to complete and retrieves the download and upload speeds.
-- The `tweet_at_provider method checks if the download speed is less than the promised speed, logs into Twitter, and tweets at the service provider if the speed is below the promised speed.
+- The `tweet_at_provider` method checks if the download speed is less than the promised speed, logs into Twitter, and tweets at the service provider if the speed is below the promised speed.
